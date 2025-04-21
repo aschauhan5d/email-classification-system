@@ -91,7 +91,42 @@ To run the server with a production setup:
 pip install gunicorn
 gunicorn -w 4 -k uvicorn.workers.UvicornWorker app:app
 ```
-# email-classification-system
-# email-classification-system
-# email-classification-system
-# email-classification-system
+
+# Deployment on Hugging Face Spaces
+
+## Accessing Deployed API
+
+Base URL:
+
+```
+https://huggingface.co/spaces/aschauhan5d/email-classification-system
+```
+
+Endpoint:
+
+```
+POST /classify
+```
+
+Interactive Docs:
+
+```
+https://huggingface.co/spaces/aschauhan5d/email-classification-system/docs
+```
+
+Testing in Postman
+Set method to POST
+
+```
+URL: https://huggingface.co/spaces/aschauhan5d/email-classification-system/classify
+```
+
+Headers: Content-Type: application/json
+
+Body:
+
+```json
+{
+  "email_body": "Your sample email text here..."
+}
+```
