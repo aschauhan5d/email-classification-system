@@ -100,25 +100,29 @@ Base URL:
 
 ```
 https://huggingface.co/spaces/aschauhan5d/email-classification-system
+
 ```
 
 Endpoint:
 
 ```
 POST /classify
+
 ```
 
 Interactive Docs:
 
 ```
 https://huggingface.co/spaces/aschauhan5d/email-classification-system/docs
+
 ```
 
 Testing in Postman
 Set method to POST
 
 ```
-URL: https://huggingface.co/spaces/aschauhan5d/email-classification-system/classify
+ https://huggingface.co/spaces/aschauhan5d/email-classification-system/classify
+
 ```
 
 Headers: Content-Type: application/json
