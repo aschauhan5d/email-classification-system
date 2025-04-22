@@ -99,7 +99,7 @@ gunicorn -w 4 -k uvicorn.workers.UvicornWorker app:app
 Base URL:
 
 ```
-https://huggingface.co/spaces/aschauhan5d/email-classification-system
+https://huggingface.co/spaces/aschauhan5d/email_classification_system
 
 ```
 
@@ -113,7 +113,7 @@ POST /classify
 Interactive Docs:
 
 ```
-https://huggingface.co/spaces/aschauhan5d/email-classification-system/docs
+https://aschauhan5d-email-classification-system.hf.space/docs
 
 ```
 
@@ -121,7 +121,7 @@ Testing in Postman
 Set method to POST
 
 ```
- https://huggingface.co/spaces/aschauhan5d/email-classification-system/classify
+https://aschauhan5d-email-classification-system.hf.space/classify
 
 ```
 
